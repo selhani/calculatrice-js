@@ -16,18 +16,16 @@ L'objectif principal de ce projet était de pratiquer la mise en page avec **CSS
 
 ### Aperçu du projet
 
-
-<img src="Rendu-Final.png" alt="recto" width="300"/>
+<img src="Rendu-Final.png" alt="Rendu de la calculatrice" width="300"/>
 
 ---
 
 ### Contenu du projet 
 
 calculatrice-js/
-- index.html      # Page principale
-- style.css       # Fichier CSS (style)
-- script.js       # Fichier JavaScript (calculs)
-- README.md       # Ce fichier
+- index.html : Page principale
+- style.css : Fichier CSS (style)
+- script.js : Fichier JavaScript (calculs)
 
 ---
 
