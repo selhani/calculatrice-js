@@ -29,7 +29,7 @@ calculatrice-js/
 
 ---
 
-## Fonctionnalités
+### Fonctionnalités
 
 - Calculs de base : Addition, soustraction, multiplication et division
 - Interface simple et intuitive
@@ -38,6 +38,6 @@ calculatrice-js/
 
 ---
 
-## Calculatrice en ligne
+### Calculatrice en ligne
 
 [Voir la Calculatrice](https://el-hani4.github.io/calculatrice-js/)
