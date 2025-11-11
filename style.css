@@ -53,6 +53,7 @@ button:hover{
 
 .opérateur {
     background-color: rgb(231, 144, 158);
+    font-size: 25px;
 }
 
 .opérateur:hover{
