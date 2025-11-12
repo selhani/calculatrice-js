@@ -1,7 +1,7 @@
 const display = document.getElementById("display");
-const btn = document.querySelectorAll("button");
+const cButtons = document.querySelectorAll(".btn button");
 
-btn.forEach(button => {
+cButtons.forEach(button => {
     button.addEventListener("click", () => {
         const value = button.textContent;
 
@@ -16,7 +16,7 @@ btn.forEach(button => {
         }
         else if (value === "=") {
             try {
-                display.value = eval(display.value); // calcule 
+                display.value = new Function("return " + display.value)(); // calcule 
             } catch {
                 display.value = "Erreur"; // mauvaise syntaxe
             }
@@ -36,3 +36,39 @@ btn.forEach(button => {
         }
     });
 });
+
+
+// Boutons qui changent le thème de la calculatrice
+
+const operateurs = document.querySelectorAll(".operateur");
+const gris = document.getElementById("gris");
+const rose = document.getElementById("rose");
+const bleu = document.getElementById("bleu");
+const vert = document.getElementById("vert");
+const jaune = document.getElementById("jaune");
+
+function changeColor(color) {
+    operateurs.forEach(op => {
+        op.style.backgroundColor = color;
+    });
+}
+
+gris.addEventListener("click", () => 
+    changeColor("#343333")
+);
+
+rose.addEventListener("click", () => 
+    changeColor("rgb(231, 144, 158)")
+);
+
+bleu.addEventListener("click", () => 
+    changeColor("rgb(47, 183, 224)")
+);
+
+vert.addEventListener("click", () => 
+    changeColor("rgb(47, 224, 127)")
+);
+
+jaune.addEventListener("click", () => 
+    changeColor("rgb(240, 229, 72)")
+);
