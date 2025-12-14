@@ -40,4 +40,4 @@ calculatrice-js/
 
 ### Calculatrice en ligne
 
-[Voir la Calculatrice](https://el-hani4.github.io/calculatrice-js/)
+[Voir la Calculatrice](https://selhani.github.io/calculatrice-js/)
